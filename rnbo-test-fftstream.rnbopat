@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "rnbo",
-		"rect" : [ 705.0, 390.0, 1336.0, 723.0 ],
+		"rect" : [ 358.0, 360.0, 1336.0, 723.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -53,7 +53,7 @@
 						"comment" : ""
 					}
 ,
-					"rnbo_serial" : 3,
+					"rnbo_serial" : 1,
 					"rnbo_uniqueid" : "in_obj-22",
 					"rnboinfo" : 					{
 						"needsInstanceInfo" : 1,
@@ -353,7 +353,7 @@
 										"hot" : 0
 									}
 ,
-									"rnbo_serial" : 2,
+									"rnbo_serial" : 1,
 									"rnbo_uniqueid" : "+_obj-4",
 									"text" : "+ 1"
 								}
@@ -720,8 +720,8 @@
 					"rnbo_classname" : "p",
 					"rnbo_extra_attributes" : 					{
 						"polyphony" : -1.0,
-						"receivemode" : "local",
 						"args" : [  ],
+						"receivemode" : "local",
 						"notecontroller" : 0,
 						"voicecontrol" : "simple",
 						"exposevoiceparams" : 0
@@ -974,7 +974,7 @@
 						"outputs" : 1.0
 					}
 ,
-					"rnbo_serial" : 2,
+					"rnbo_serial" : 1,
 					"rnbo_uniqueid" : "gate~_obj-18",
 					"rnboinfo" : 					{
 						"needsInstanceInfo" : 1,
@@ -1079,7 +1079,7 @@
 						"outputs" : 1.0
 					}
 ,
-					"rnbo_serial" : 1,
+					"rnbo_serial" : 2,
 					"rnbo_uniqueid" : "gate~_obj-16",
 					"rnboinfo" : 					{
 						"needsInstanceInfo" : 1,
@@ -1185,7 +1185,7 @@
 						"comment" : ""
 					}
 ,
-					"rnbo_serial" : 1,
+					"rnbo_serial" : 2,
 					"rnbo_uniqueid" : "in_obj-15",
 					"rnboinfo" : 					{
 						"needsInstanceInfo" : 1,
@@ -1267,7 +1267,7 @@
 						"unit" : "ms"
 					}
 ,
-					"rnbo_serial" : 2,
+					"rnbo_serial" : 1,
 					"rnbo_uniqueid" : "sig~_obj-14",
 					"text" : "sig~ 1"
 				}
@@ -1280,16 +1280,15 @@
 					"numinlets" : 4,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1053.666666666666742, 364.0, 117.0, 23.0 ],
-					"presentation_linecount" : 2,
 					"rnbo_classname" : "poke~",
 					"rnbo_extra_attributes" : 					{
-						"boundmode" : "ignore",
 						"channelmode" : "ignore",
 						"indexmode" : "samples",
-						"overdubmode" : "mix"
+						"overdubmode" : "mix",
+						"boundmode" : "ignore"
 					}
 ,
-					"rnbo_serial" : 2,
+					"rnbo_serial" : 1,
 					"rnbo_uniqueid" : "poke~_obj-7",
 					"text" : "poke~ writeTest3"
 				}
@@ -1410,7 +1409,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 63.0, 162.0, 43.0, 23.0 ],
+					"patching_rect" : [ 54.5, 162.0, 43.0, 23.0 ],
 					"rnbo_classname" : "out~",
 					"rnbo_extra_attributes" : 					{
 						"meta" : "",
@@ -1525,13 +1524,13 @@
 					"patching_rect" : [ 36.0, 259.0, 80.0, 37.0 ],
 					"rnbo_classname" : "poke~",
 					"rnbo_extra_attributes" : 					{
-						"boundmode" : "ignore",
 						"channelmode" : "ignore",
 						"indexmode" : "samples",
-						"overdubmode" : "mix"
+						"overdubmode" : "mix",
+						"boundmode" : "ignore"
 					}
 ,
-					"rnbo_serial" : 1,
+					"rnbo_serial" : 2,
 					"rnbo_uniqueid" : "poke~_obj-12",
 					"text" : "poke~ writeTest3"
 				}
@@ -1945,6 +1944,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-18", 1 ],
+					"midpoints" : [ 106.5, 161.0, 1082.5, 161.0 ],
 					"source" : [ "obj-13", 1 ]
 				}
 
@@ -2070,6 +2070,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-10", 1 ],
+					"midpoints" : [ 357.0, 352.5, 460.5, 352.5 ],
 					"source" : [ "obj-4", 1 ]
 				}
 
@@ -2084,6 +2085,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-9", 1 ],
+					"midpoints" : [ 603.0, 351.5, 706.5, 351.5 ],
 					"source" : [ "obj-5", 1 ]
 				}
 
@@ -2098,6 +2100,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-8", 1 ],
+					"midpoints" : [ 849.0, 352.5, 952.5, 352.5 ],
 					"source" : [ "obj-6", 1 ]
 				}
 
